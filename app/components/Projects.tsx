@@ -97,7 +97,7 @@ function ProjectCard({ project, delay = 0 }: { project: Project; delay?: number 
 
 export default function Projects() {
   return (
-    <section className="section" id="projects">
+    <section className="section bg-alt" id="projects">
       <div className="wrap">
         {/* Header */}
         <motion.div
@@ -107,7 +107,12 @@ export default function Projects() {
           viewport={{ once: true, margin: "-80px" }}
           transition={{ duration: 0.55 }}
         >
-          <h2 className="heading-lg">Selected Works.</h2>
+          <div style={{ display: "flex", alignItems: "baseline", gap: "0.625rem", flexWrap: "wrap" }}>
+            <h2 className="heading-lg">Selected Works.</h2>
+            <span style={{ fontSize: "0.875rem", color: "#a1a1aa", fontWeight: 400 }}>
+              (during college projects)
+            </span>
+          </div>
           <p className="subtext" style={{ marginTop: "0.5rem", fontSize: "1.0625rem" }}>
             Flagship builds in AI, backend, and full-stack.
           </p>

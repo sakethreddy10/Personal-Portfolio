@@ -4,7 +4,7 @@ import "./globals.css";
 export const metadata: Metadata = {
   title: "Varkuti Saketh Reddy | Full-Stack & AI/ML Developer",
   description:
-    "Final-year CS student from Hyderabad. Building AI-powered applications, scalable web platforms, and automation tools — from RAG pipelines to deep learning systems. Published researcher. Hackathon winner.",
+    "AI/ML Engineer at Solix Softech building RAG pipelines and ML lifecycle systems. Published researcher. Hyderabad.",
   keywords: [
     "Full Stack Developer",
     "AI/ML Developer",

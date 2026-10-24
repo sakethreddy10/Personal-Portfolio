@@ -127,10 +127,7 @@ export default function Hero() {
 
           {/* Bio */}
           <motion.p variants={fadeUp} className="hero-bio">
-            Final-year CS student from Hyderabad. I build AI-powered applications, scalable web
-            platforms, and automation tools — from RAG pipelines to deep learning systems.{" "}
-            <strong style={{ color: "white", fontWeight: 600 }}>Published researcher.</strong>{" "}
-            <strong style={{ color: "white", fontWeight: 600 }}>Hackathon winner.</strong>
+            AI/ML Engineer at Solix Softech (Enterprise AI division). I build RAG pipelines, MLflow-based ML lifecycle systems, and enterprise AI solutions — from document intelligence to secure ML model serving on Kubernetes.
           </motion.p>
 
           {/* CTAs */}

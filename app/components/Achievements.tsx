@@ -6,6 +6,12 @@ import { useState, useEffect, useRef } from "react";
 
 const achievements = [
   {
+    emoji: "🏅",
+    title: "University Rank 3",
+    period: "2022 – 2026",
+    desc: "Achieved 3rd rank in Computer Science & Engineering with an 8.9/10 GPA.",
+  },
+  {
     emoji: "🏆",
     title: "Reliance Undergraduate Scholar",
     period: "2022 – 2026",
@@ -35,6 +41,18 @@ const achievements = [
     title: "React.js & Introduction to Databases",
     period: "NXTWAVE",
     desc: "Certified in React.js development and database fundamentals.",
+  },
+  {
+    emoji: "⚛️",
+    title: "Quantum Computing For Everyone",
+    period: "Fractal Analytics / Coursera (2026)",
+    desc: "Foundational quantum computing concepts and algorithms.",
+  },
+  {
+    emoji: "🧠",
+    title: "Introduction to Deep Learning",
+    period: "NxtWave",
+    desc: "Neural network architectures and deep learning fundamentals.",
   },
 ];
 
@@ -136,6 +154,10 @@ export default function Achievements() {
               <div className="edu-row">
                 <span className="edu-key">GPA</span>
                 <span className="edu-gpa">8.9 / 10</span>
+              </div>
+              <div className="edu-row">
+                <span className="edu-key">Rank</span>
+                <span className="edu-val" style={{ color: "#a5b4fc", fontWeight: 600 }}>University Rank 3</span>
               </div>
               <div className="edu-row">
                 <span className="edu-key">Location</span>

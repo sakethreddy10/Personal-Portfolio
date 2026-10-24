@@ -20,11 +20,11 @@ export default function Home() {
       {/* Scrolling Marquee Strip */}
       <Marquee />
 
-      {/* 2. Projects Section */}
-      <Projects />
-
-      {/* 3. Experience Section */}
+      {/* 2. Experience Section */}
       <Experience />
+
+      {/* 3. Projects Section */}
+      <Projects />
 
       {/* 4. Skills Section */}
       <Skills />

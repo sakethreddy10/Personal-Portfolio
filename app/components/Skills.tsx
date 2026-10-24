@@ -5,7 +5,8 @@ import { motion } from "framer-motion";
 const skillGroups = [
   { icon: "⚡", name: "Frontend", color: "#6366f1", skills: ["React.js", "HTML5", "CSS3", "JavaScript (ES6+)", "Chart.js", "Vite", "Bootstrap"] },
   { icon: "⚙️", name: "Backend", color: "#8b5cf6", skills: ["Python", "FastAPI", "Node.js", "Express.js", "Java", "C++", "REST APIs"] },
-  { icon: "🤖", name: "AI / ML", color: "#a855f7", skills: ["PyTorch", "LangChain", "CrewAI", "HuggingFace", "RAG", "ResNet-50", "LLaMA 3.3"] },
+  { icon: "🤖", name: "AI / ML", color: "#a855f7", skills: ["PyTorch", "LangChain", "CrewAI", "HuggingFace", "RAG", "ResNet-50", "LLaMA 3.3", "ChromaDB", "Ollama", "Sentence Transformers"] },
+  { icon: "🚀", name: "MLOps", color: "#06b6d4", skills: ["MLflow", "KServe", "Kubernetes", "Model Registry", "Experiment Tracking"] },
   { icon: "🗄️", name: "Databases", color: "#7c3aed", skills: ["PostgreSQL", "MongoDB", "MySQL", "DataStax AstraDB"] },
   { icon: "🛠️", name: "Tools & Cloud", color: "#6366f1", skills: ["Git", "AWS", "Docker", "Postman", "VS Code"] },
   { icon: "🧠", name: "CS Fundamentals", color: "#818cf8", skills: ["DSA", "OOP", "System Design"] },
